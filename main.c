@@ -19,9 +19,9 @@
 //Pointers to the hardware address of the required I/O and counter
 volatile int * LEDs =			(volatile int *)(ALT_LWFPGA_LED_BASE);
 volatile int * Switches =		(volatile int *)(ALT_LWFPGA_SWITCH_BASE);
-volatile int * push_button =	(volatile int *)(ALT_LWFPGA_KEY_BASE);
+volatile int * push_button =		(volatile int *)(ALT_LWFPGA_KEY_BASE);
 volatile int * GpioPort =		(volatile int *)(ALT_LWFPGA_GPIO_1A_BASE);
-volatile int * GpioPort_test =	(volatile int *)(ALT_LWFPGA_GPIO_1B_BASE);
+volatile int * GpioPort_test =		(volatile int *)(ALT_LWFPGA_GPIO_1B_BASE);
 volatile int * Counter =		(volatile int *)(ALT_LWFPGA_COUNTER_BASE);
 volatile int * nums_right =		(volatile int *)(ALT_LWFPGA_HEXA_BASE);
 volatile int * nums_left =		(volatile int *)(ALT_LWFPGA_HEXB_BASE);
