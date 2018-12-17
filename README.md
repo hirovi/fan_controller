@@ -19,7 +19,7 @@ Oscar Rovira | Candidate Number: 11791
 - Closed Loop Mode: Error, Target Speed(RPM), Fan Speed(RPM) or Duty Cycle(%)
 
 ## Instructions:
-###(Make sure all switches (SW0-9) are down before compiling to ensure complete initialisation of the system)
+###Make sure all switches (SW0-9) are down before compiling to ensure complete initialisation of the system
 
 1. To turn on the system toggle left switch (SW9) up.
 2. To turn off the system toggle left switch (SW9) down.
