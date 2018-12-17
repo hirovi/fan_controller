@@ -1,6 +1,6 @@
 /*
-|� �@author Oscar Rovira
-|� �@version 1.0 14/12/2018
+|	@author Oscar Rovira
+|	@version 1.0 14/12/2018
 */
 
 #include "EE30186.h"

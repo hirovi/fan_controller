@@ -1,4 +1,5 @@
-# Fan controller in C | Final submission for EE30186 | University of Bath
+# Fan controller in C Programming
+Final submission for EE30186 | University of Bath
 
 ## About
 The goal is to control the speed of the fan according to the user input using the DE1-SoC FPGA.
