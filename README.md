@@ -1,14 +1,8 @@
-� _____ _____ _____� ___� _� ___� �__� � � _____� � � � � � �____� � � � � � � � � � � _� � ____� � � � � � _� � � � � � �_
-�| ____| ____|___ / / _ \/ |( _ ) / /_ _� |� ___|_ _ _ __� �/ ___| _ __� �___� ___� __| |� / ___|___� _ __ | |_ _ __ ___ | |
-�|� _| |� _|� �|_ \| | | | |/ _ \| '_ (_) | |_ / _` | '_ \� \___ \| '_ \ / _ \/ _ \/ _` | | |� �/ _ \| '_ \| __| '__/ _ \| |
-�| |___| |___ ___) | |_| | | (_) | (_) |� |� _| (_| | | | |� ___) | |_) |� __/� __/ (_| | | |__| (_) | | | | |_| | | (_) | |
-�|_____|_____|____/ \___/|_|\___/ \___(_) |_|� \__,_|_| |_| |____/| .__/ \___|\___|\__,_|� \____\___/|_| |_|\__|_|� \___/|_|
-� � � � � 
-This is my solution to the fan speed controller as part of the final submission for EE30186.
+# Fan controller in C | Final submission for EE30186 | University of Bath
 
 ## About
 The goal is to control the speed of the fan according to the user input using the DE1-SoC FPGA.
-Oscar Rovira | Candidate Number: 11791
+Author: Oscar Rovira
 
 ## Modes : Closed and Open Loop
 - Open Loop Mode: User can select the desired speed of the fan by directly controlling the output duty cycle of the PWM waveform being sent to the fan.
@@ -19,7 +13,7 @@ Oscar Rovira | Candidate Number: 11791
 - Closed Loop Mode: Error, Target Speed(RPM), Fan Speed(RPM) or Duty Cycle(%)
 
 ## Instructions:
-###Make sure all switches (SW0-9) are down before compiling to ensure complete initialisation of the system
+Make sure all switches (SW0-9) are down before compiling to ensure complete initialisation of the system
 
 1. To turn on the system toggle left switch (SW9) up.
 2. To turn off the system toggle left switch (SW9) down.
